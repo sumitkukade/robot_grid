@@ -1,0 +1,41 @@
+#container {
+    position: center;
+    outline:2px solid #000;
+    font-size: 0;
+    margin:auto;
+    height:480px;
+    width:480px;
+    padding: 100;
+    border: auto;
+    display:inline-block;
+}
+
+.grid{
+    margin:0;
+    padding:0;
+    border:none;
+    outline:1px solid #000;
+    display:inline-block;
+}
+
+.robot_grid {
+    margin:0;
+    padding:0;
+    border:none;
+    outline:1px solid #000;
+    background-image:url('96robot.png');
+    background-size: 100%;
+    width: 96px;
+    height: 96px;
+    display:inline-block;
+}
+#button{
+    position: center;
+    font-size: 0;
+    margin:auto;
+    height:480px;
+    width:480px;
+    padding: 0;
+    border: none;
+    display:block;
+}
