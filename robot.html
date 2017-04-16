@@ -5,11 +5,11 @@
 	<script type="text/javascript" src="robot.js"></script>
 </head>
 
-<body>
+<body onload="onLoad();">
 	input_file
 	<input type="file" id="get_file"  ><br>
 	<button id="read_file" onclick="read_file_content()">Read</button>
-	Grid_Size: <input type="text" name="grid_size" value="10"><br>
+	Grid_Size: <input type="text" name="grid_size" value="10" id="gridSize"><br>
 	<div id="container">
 	</div><br>
 </body>

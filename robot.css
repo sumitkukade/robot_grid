@@ -5,7 +5,7 @@
     margin:auto;
     height:480px;
     width:480px;
-    padding: 100;
+    padding: 0;
     border: auto;
     display:inline-block;
 }
@@ -29,6 +29,20 @@
     height: 96px;
     display:inline-block;
 }
+
+.coin {
+    margin:0;
+    padding:0;
+    border:none;
+    outline:1px solid #000;
+    background-image:url('96robot.png');
+    background-size: 100%;
+    width: 96px;
+    height: 96px;
+    display:inline-block;
+}
+
+
 #button{
     position: center;
     font-size: 0;
